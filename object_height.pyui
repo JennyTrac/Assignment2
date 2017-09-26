@@ -1,0 +1,106 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {1024, 768}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter the time since the object was dropped in seconds:",
+          "font_name" : "<System>",
+          "name" : "instruction_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "0FE026B0-1BF3-4C88-9EDD-19462C7CCC74"
+        },
+        "frame" : "{{33, 34}, {479, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Time(s):",
+          "font_name" : "<System>",
+          "name" : "time_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "89C77425-A3FC-409F-B7F0-9D7C4EFD7828"
+        },
+        "frame" : "{{33, 99}, {150, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "time_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{412, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "559663DC-0649-4F43-8CBC-3FC31C396E23"
+        },
+        "frame" : "{{191, 99}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Calculate",
+          "name" : "calculate_button",
+          "action" : "calculate_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{472, 368}, {80, 32}}",
+          "uuid" : "6788CAC6-957E-4327-9109-653B1ABC3ABA"
+        },
+        "frame" : "{{191, 162}, {126, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "height_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "5F07D507-A0FD-43E9-A79E-B13793737DA6"
+        },
+        "frame" : "{{33, 221}, {479, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
